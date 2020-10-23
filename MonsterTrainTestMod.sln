@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterTrainAngelMod", "MonsterTrainAngelMod\MonsterTrainAngelMod.csproj", "{2F20B0F4-5657-41B7-B22C-A47B718A7D5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonsterTrainTestMod", "MonsterTrainAngelMod\MonsterTrainTestMod.csproj", "{2F20B0F4-5657-41B7-B22C-A47B718A7D5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
