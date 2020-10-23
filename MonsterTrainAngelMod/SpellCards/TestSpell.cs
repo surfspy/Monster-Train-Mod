@@ -6,7 +6,7 @@ namespace MonsterTrainMod.SpellCards
 {
     class TestSpell
     {
-        public static readonly string ID = TestPlugin.GUID + "_TestSpell";
+        public static string ID = TestPlugin.GUID + "_TestSpell";
 
         public static void Make()
         {
