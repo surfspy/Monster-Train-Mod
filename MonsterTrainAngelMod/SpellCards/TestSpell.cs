@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
-using MonsterTrainMod;
+﻿using System.Collections.Generic;
 using Trainworks.Builders;
 using Trainworks.Constants;
 
@@ -25,7 +21,7 @@ namespace MonsterTrainMod.SpellCards
                 AssetPath = "assets/nothornbreak.png",
                 
                 TargetsRoom = true,
-                Targetless = true,
+                Targetless = false,
                 ClanID = VanillaClanIDs.Clanless,
                 CardPoolIDs = new List<string> { VanillaCardPoolIDs.MegaPool },
 

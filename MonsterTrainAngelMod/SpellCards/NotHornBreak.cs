@@ -10,15 +10,16 @@ namespace MonsterTrainMod.SpellCards
 {
     class NotHornBreak
     {
-        public static readonly string ID = TestPlugin.GUID + "_NotHornBreak";
+        public static string ID = TestPlugin.GUID + "_NotHornBReak";
+        
 
         public static void Make()
         {
-            new CardDataBuilder
+            CardDataBuilder railyard = new CardDataBuilder
             {
-                CardID = ID,
+                CardID = NotHornBreak.ID,
                 Name = "Not Horn Break",
-                Description = "Deal [effect0.power] damage",    
+                Description = "Deal [effect0.power] damage",
                 Cost = 1,
                 Rarity = CollectableRarity.Common,
                 TargetsRoom = true,
@@ -42,7 +43,8 @@ namespace MonsterTrainMod.SpellCards
                         TraitStateType = VanillaCardTraitTypes.CardTraitIgnoreArmor
                     }
                 }
-            }.BuildAndRegister();
+            };
+            railyard.BuildAndRegister();
         }
     }
 }
